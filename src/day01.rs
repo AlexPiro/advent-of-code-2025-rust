@@ -69,10 +69,10 @@ fn part2(input_file: &str) -> i32 {
 }
 
 fn main() {
-    assert_eq!(part1("src/example-day01.txt"), 3);
-    println!("Part 1 solution: {}", part1("src/puzzle-day01.txt"));
-    assert_eq!(part2("src/example-day01.txt"), 6);
-    println!("Part 2 solution: {}", part2("src/puzzle-day01.txt"));
+    assert_eq!(part1("Day01/example.txt"), 3);
+    println!("Part 1 solution: {}", part1("Day01/puzzle.txt"));
+    assert_eq!(part2("Day01/example.txt"), 6);
+    println!("Part 2 solution: {}", part2("Day01/puzzle.txt"));
 
 }
 
